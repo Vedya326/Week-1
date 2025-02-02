@@ -7,11 +7,8 @@
        - main  # or any branch you want to trigger the action
 
  jobs:
-   test:
-     runs-on: windows-latest
-     steps:
-       - name: Checkout code
-         uses: actions/checkout@v3
-
-       - name: 23f1002633@ds.study.iitm.ac.in
-         run: echo "Hello, world!"
+  test:
+    steps:
+      - name: 23f1002633@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
+      
